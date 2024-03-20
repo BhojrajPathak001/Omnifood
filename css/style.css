@@ -34,7 +34,9 @@ Primary:#e67e22
 -->unsplash.com for images 
 -->uifaces.co for user faces
 */
-
+html {
+  font-size: 62.5%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -47,3 +49,10 @@ body {
   font-weight: 400;
   color: #555;
 }
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* .hero-img {
+  width: 100%;
+} */
